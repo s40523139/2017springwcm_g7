@@ -32,7 +32,7 @@ There is one more tag for image: ``b64img``. It is based on ``img`` tag, but ins
 To use it:
 
 1. Enable ``liquid_tags.b64img``
-1. Insert tag as you'd insert image one: ``{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}``
+
 
 Images are read on compilation phase so you can use any local path (just be sure that image will remain there on next compilation)
 
