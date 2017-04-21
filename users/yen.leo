@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151212173315.1" a="E"><vh>@settings</vh>
+<v t="leo.20151212173315.1"><vh>@settings</vh>
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -96,7 +96,22 @@
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
-<v t="amd.20160106093454.1"><vh>40523130 所寫的網誌文章</vh></v>
+<v t="amd.20160106093454.1" a="E"><vh>40523130 所寫的網誌文章</vh>
+<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
+<v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
+<v t="leo.20161114213957.1"><vh>@edit 20161111.md</vh></v>
+<v t="leo.20161118140944.1"><vh>@edit 20161118.md</vh></v>
+<v t="leo.20161202143446.1"><vh>@edit 20161202.md</vh></v>
+<v t="leo.20161209135626.1"><vh>@edit 20161209.md</vh></v>
+<v t="leo.20161216135131.1"><vh>@edit 20161216.md</vh></v>
+<v t="leo.20161223154403.1"><vh>@edit 20161223.md</vh></v>
+<v t="leo.20161230133147.1"><vh>@edit 20161230.md</vh></v>
+<v t="leo.20170106134132.1"><vh>@edit 20170106.md</vh></v>
+<v t="leo.20170113105122.1"><vh>@edit 20170113.md</vh></v>
+<v t="leo.20170113164313.1"><vh>@edit 20170114.md</vh></v>
+<v t="leo.20170113164305.1"><vh>@edit 20170115.md</vh></v>
+</v>
+</v>
 <v t="leo.20161113205737.1"><vh>@button https server</vh></v>
 <v t="leo.20161209142414.1"><vh>@button ipv6 https server</vh></v>
 <v t="leo.20161113205758.1"><vh>產生 .key 與 .crt</vh></v>
@@ -151,6 +166,7 @@ print("hello")
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
+<t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="amd.20161004083800.1">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
@@ -841,7 +857,7 @@ Diff...
 </t>
 <t tx="leo.20161112212346.5">(uncached) amd.20161004083800.3
 Diff...
-+ 2017網際網路管理
++ 2016 Fall 計算機程式課程
 </t>
 <t tx="leo.20161112212346.6">2016 Fall 計算機程式課程
 </t>

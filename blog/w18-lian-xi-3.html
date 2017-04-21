@@ -302,7 +302,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-01-15T12:00:00+08:00"> Sun 15 January 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-01-15T12:00:00+08:00"> 週日 15 一月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40523130.html"><i class="fa fa-user"></i> 40523130</a>
@@ -316,10 +316,9 @@ init_mathjax();
                 </div>
                 <!-- PELICAN_END_SUMMARY -->
 
-<p>x2 = x1 + r<em>math.cos(theca</em>10<em>deg)的意思是在x1的點上加上半徑r在X方向的長度
-y2 = y1 + r</em>math.sin(theca<em>10</em>deg)的意思是在y1的點上加上半徑r在Y方向的長度
-ctx.strokeStyle = "orange"再線的函式裡面可以改變線得樣式
-<!-- 導入 Brython 標準程式庫 --></p>
+<p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
+<!-- 導入 Brython 標準程式庫 -->
+
 <script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
 </script>
@@ -480,13 +479,13 @@ height = canvas.height</p>
     # 然後畫直線到 (x2, y2) 座標點
     ctx.lineTo(x2, y2)
     # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-    ctx.strokeStyle = "orange"
+    ctx.strokeStyle = "blue"
     # 實際執行畫線
     ctx.stroke()
     ctx.closePath()</p>
 <p>x1 = 200
 y1 = 200
-x4 = 350
+x4 = 300
 y4 = 200
 r = 50
 deg = math.pi/180
