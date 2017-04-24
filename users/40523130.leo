@@ -21,13 +21,13 @@
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
 <v t="amd.20161004083800.1" a="E"><vh>html</vh>
-<v t="amd.20161004083800.2"><vh>head</vh>
+<v t="amd.20161004083800.2" a="E"><vh>head</vh>
 <v t="amd.20161004083800.3"><vh>&lt;&lt; 投影片標題 &gt;&gt;</vh></v>
 </v>
 <v t="amd.20161004083800.5" a="E"><vh>body</vh>
 <v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
 <v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
-<v t="leo.20170421105743.1"><vh>blog</vh></v>
+<v t="amd.20161004083800.8"><vh>blog</vh></v>
 </v>
 </v>
 </v>
@@ -46,7 +46,11 @@
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
-<v t="amd.20160106093454.1"><vh>40523130 所寫的網誌文章</vh></v>
+<v t="amd.20160106093454.1" a="E"><vh>40523130 所寫的網誌文章</vh>
+<v t="amd.20160727114506.1" a="E"><vh>201704</vh>
+<v t="leo.20170423140914.1"><vh>@edit 20170423.md</vh></v>
+</v>
+</v>
 <v t="leo.20161113205737.1"><vh>@button https server</vh></v>
 <v t="leo.20161209142414.1"><vh>@button ipv6 https server</vh></v>
 <v t="leo.20161113205758.1"><vh>產生 .key 與 .crt</vh></v>
@@ -58,7 +62,7 @@
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="leo.20161112212346.1" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20161112212346.2"><vh>Recovered node "head" from @clean index.html</vh>
+<v t="leo.20161112212346.2" a="E"><vh>Recovered node "head" from @clean index.html</vh>
 <v t="leo.20161112212346.3"><vh>old:head</vh></v>
 <v t="leo.20161112212346.4"><vh>new:head</vh></v>
 </v>
@@ -101,6 +105,7 @@ print("hello")
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
+<t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="amd.20161004083800.1">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
@@ -109,7 +114,7 @@ print("hello")
 </t>
 <t tx="amd.20161004083800.2">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
-    &lt;title&gt;    2016 Fall 計算機程式課程
+    &lt;title&gt;    2017 SPRING 網際內容管理
     &lt;&lt; 投影片標題 &gt;&gt;
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
@@ -138,9 +143,7 @@ print("hello")
     &lt;!--[if lt IE 9]&gt;
     &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
     &lt;![endif]--&gt;
-&lt;/head&gt;
-
-</t>
+&lt;/head&gt;</t>
 <t tx="amd.20161004083800.3"></t>
 <t tx="amd.20161004083800.5">&lt;body&gt;
 @others
@@ -180,6 +183,14 @@ print("hello")
 @others
 &lt;/div&gt;
 
+</t>
+<t tx="amd.20161004083800.8">&lt;section&gt;
+    &lt;h1&gt;2017 SPRING 網際內容管理&lt;/h1&gt;
+    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;p&gt;
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+    &lt;/p&gt;
+&lt;section&gt;
 </t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
@@ -359,7 +370,7 @@ Diff...
 </t>
 <t tx="leo.20161112212346.4">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
-    &lt;title&gt;    2016 Fall 計算機程式課程
+    &lt;title&gt;    2017 SPRING 網際內容管理
     &lt;&lt; 投影片標題 &gt;&gt;
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
@@ -393,11 +404,11 @@ Diff...
 </t>
 <t tx="leo.20161112212346.5">(uncached) amd.20161004083800.3
 Diff...
-+ 2017網際網路管理
++ 2017 SPRING 網際內容管理
 </t>
 <t tx="leo.20161112212346.6">2016 Fall 計算機程式課程
 </t>
-<t tx="leo.20161112212346.7"> 2017網際網路管理</t>
+<t tx="leo.20161112212346.7">2017 SPRING 網際內容管理</t>
 <t tx="leo.20161113205737.1">@language python
 import os
 import subprocess
@@ -449,10 +460,5 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
-<t tx="leo.20170421105743.1">&lt;/section&gt;    
-    &lt;/p&gt;
-    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
-&lt;/section&gt;
-</t>
 </tnodes>
 </leo_file>

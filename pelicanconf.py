@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'KMOL'
-SITENAME = '2016Fall 課程網誌 (虎尾科大MDE)'
+AUTHOR = '陳士正'
+SITENAME = '2017 SPRING 網際內容管理 (虎尾科大MDE)'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
 
