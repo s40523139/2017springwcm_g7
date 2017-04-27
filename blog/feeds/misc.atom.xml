@@ -24,12 +24,34 @@
 &lt;p&gt;-&amp;gt; /etc/init.d/stunnel4 restart 須重新啟動 stunnel4 &lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/215008801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/215008801"&gt;2017-04-27_20-33-51&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category><category term="Virtualbox"></category></entry><entry><title>2017-04-21上課內容練習</title><link href="./2017-04-21shang-ke-nei-rong-lian-xi.html" rel="alternate"></link><published>2017-04-26T12:00:00+08:00</published><updated>2017-04-26T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-26:./2017-04-21shang-ke-nei-rong-lian-xi.html</id><summary type="html">&lt;p&gt;在Virtualbox中,以橋接網路卡設定,建立一台 Ubuntu伺服主機&lt;/p&gt;
-</summary><category term="Ubuntu"></category><category term="Virtualbox"></category></entry><entry><title>2</title><link href="./2.html" rel="alternate"></link><published>2017-04-25T12:00:00+08:00</published><updated>2017-04-25T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-25:./2.html</id><summary type="html">&lt;p&gt;在Virtualbox中,以橋接網路卡設定,建立一台 Ubuntu伺服主機&lt;/p&gt;
-</summary><category term="Ubuntu"></category><category term="Virtualbox"></category></entry><entry><title>啟動 CMsimfly</title><link href="./qi-dong-cmsimfly.html" rel="alternate"></link><published>2017-04-24T12:00:00+08:00</published><updated>2017-04-24T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-24:./qi-dong-cmsimfly.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215008801"&gt;2017-04-27_20-33-51&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category><category term="Virtualbox"></category></entry><entry><title>在 ubuntu 中安裝 nginx 伺服</title><link href="./zai-ubuntu-zhong-an-zhuang-nginx-si-fu.html" rel="alternate"></link><published>2017-04-26T12:00:00+08:00</published><updated>2017-04-26T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-26:./zai-ubuntu-zhong-an-zhuang-nginx-si-fu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;-&amp;gt; sudo apt update 更新&lt;/p&gt;
+&lt;p&gt;-&amp;gt; sudo rm /var/lib/dkpg/lock 解開 /var/lib/dkpg/ 的 lock&lt;/p&gt;
+&lt;p&gt;-&amp;gt; sudo apt upate 確認是否最新&lt;/p&gt;
+&lt;p&gt;-&amp;gt; sudo apt install nginx 安裝 nginx&lt;/p&gt;
+&lt;p&gt;-&amp;gt; cd /var/www/html 進入&lt;/p&gt;
+&lt;p&gt;-&amp;gt;ls -l 長形列印&lt;/p&gt;
+&lt;p&gt;-&amp;gt; sudo vi index.nginx-debian.html 修改&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215033333" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/215033333"&gt;2017-04-27_23-21-44&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>如何將影片上傳至 fossil</title><link href="./ru-he-jiang-ying-pian-shang-chuan-zhi-fossil.html" rel="alternate"></link><published>2017-04-25T12:00:00+08:00</published><updated>2017-04-25T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-25:./ru-he-jiang-ying-pian-shang-chuan-zhi-fossil.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;步驟 : mkdir test&lt;/p&gt;
+&lt;p&gt;-&amp;gt; cd tset&lt;/p&gt;
+&lt;p&gt;-&amp;gt; fossil clone https://(這裡加帳號就不用再 push ex : 40523139@)mde2a2.kmol.info/wcmg7/wiki?name=wcmg7 text.foosil&lt;/p&gt;
+&lt;p&gt;-&amp;gt; mk wd&lt;/p&gt;
+&lt;p&gt;-&amp;gt; cd wd&lt;/p&gt;
+&lt;p&gt;-&amp;gt; fossil open cd ./../test.fossil( 把影片丟進去 )&lt;/p&gt;
+&lt;p&gt;-&amp;gt; fossil add . 加入&lt;/p&gt;
+&lt;p&gt;-&amp;gt; fossil commit -m "" &lt;/p&gt;
+&lt;p&gt;-&amp;gt; fossil push (剛剛有加帳號就不用在 push)&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>啟動 CMsimfly</title><link href="./qi-dong-cmsimfly.html" rel="alternate"></link><published>2017-04-24T12:00:00+08:00</published><updated>2017-04-24T12:00:00+08:00</updated><author><name>40523139</name></author><id>tag:,2017-04-24:./qi-dong-cmsimfly.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;下載這學期用的tiny2017_1GB 並打開start.bat 在tmp目錄下有一個CMsimfly的檔案&lt;/p&gt;
 &lt;p&gt;先查 ip用 ipconfig     &lt;/p&gt;
 &lt;p&gt;用 scite 把wsgi.py 打開 把 ip 改成自己的&lt;/p&gt;
 &lt;p&gt;步驟 : cd tmp -&amp;gt; cd CMsimfly -&amp;gt; pyhton wsgi.py &lt;/p&gt;
-&lt;p&gt;打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容&lt;/p&gt;</summary><category term="CMsimfly"></category></entry></feed>
+&lt;p&gt;打開leo 把wsgi.py的檔案打開 可以修改CMsimfly的內容&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215030751" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/215030751"&gt;2017-04-27_23-08-37&lt;/a&gt; from &lt;a href="https://vimeo.com/user58915964"&gt;劉育彤&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="CMsimfly"></category></entry></feed>

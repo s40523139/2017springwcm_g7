@@ -27,13 +27,15 @@
 <v t="amd.20161004083800.5" a="E"><vh>body</vh>
 <v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
 <v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
-<v t="amd.20161004083800.8"><vh>blog</vh></v>
+<v t="leo.20170427215425.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170427215425.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
 </v>
 </v>
-<v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
+</v>
+<v t="leo.20151213230723.1" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
 </v>
@@ -50,8 +52,8 @@
 <v t="amd.20160727114506.1" a="E"><vh>201704</vh>
 <v t="leo.20170423140914.1"><vh>@edit 20170427.md</vh></v>
 <v t="leo.20170427194835.1"><vh>@edit 20170426.md</vh></v>
-<v t="leo.20170427194835.2"><vh>@edit 20170425.md</vh></v>
 <v t="leo.20170427194836.2"><vh>@edit 20170424.md</vh></v>
+<v t="leo.20170427194835.2"><vh>@edit 20170425.md</vh></v>
 </v>
 </v>
 <v t="leo.20161113205737.1"><vh>@button https server</vh></v>
@@ -186,14 +188,6 @@ print("hello")
 @others
 &lt;/div&gt;
 
-</t>
-<t tx="amd.20161004083800.8">&lt;section&gt;
-    &lt;h1&gt;2017 SPRING 網際內容管理&lt;/h1&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
-    &lt;p&gt;
-    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
-    &lt;/p&gt;
-&lt;section&gt;
 </t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
@@ -463,5 +457,29 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="leo.20170427215425.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427215425.2"># 2017springwcm 40523139 劉育彤
+
+### 
+
+
+&lt;/small&gt;
+
+
+
+[vimeo](https://vimeo.com/user58915964)
+
+[倉儲](https://github.com/s40523139/2017springwcm_g7)
+
+[blog](https://s40523139.github.io/2017springwcm_g7/blog/)
+</t>
 </tnodes>
 </leo_file>
